@@ -6,7 +6,10 @@
 
 10. Подготовить Linux-based рабочую станцию, поддерживающую графический режим выполнения. Рабочая станция может быть реализована в формате виртуальной машины. Проверенной конфигурацией является Ubuntu20:04, 8 ядер, 8 ГБ ОЗУ. 
 
-10. Установить на хост требуемое системное ПО, в т.ч. qemu `sudo apt install  -y curl qemu-system`.
+10. Установить на хост требуемое системное ПО, в т.ч. qemu: 
+```bash
+sudo apt install  -y curl qemu-system
+```
 
 30. Получить представление об общих принципах функционирования и командах управления эмулятора qemu - в [первоисточнике](https://qemu-project.gitlab.io/qemu/system/quickstart.html) или в [переводе](http://onreader.mdl.ru/KVMVirtualizationCookbook/content/Ch01.html).
 
